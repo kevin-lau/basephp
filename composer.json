@@ -1,5 +1,5 @@
 {
-  "name": "code/base",
+  "name": "base_code/demo",
   "description": "base code",
   "type": "library",
   "license": "0.0.1",
@@ -11,12 +11,11 @@
   ],
   "minimum-stability": "stable",
   "require": {
-    "php": "^5.5",
-    "another-vendor/package": "1.*"
+    "php": ">=5.5"
   },
   "autoload": {
     "psr-4": {
-      "Guanguans\\": "src/"
+      "BaseCode\\": "src/"
     }
   }
 }
