@@ -1,0 +1,19 @@
+{
+  "name": "code/base",
+  "description": "base code",
+  "type": "library",
+  "license": "0.0.1",
+  "authors": [
+    {
+      "name": "kevin",
+      "email": "liuxiaochaun013325@hfjy.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "Guanguans\\": "src/"
+    }
+  }
+}
